@@ -1,11 +1,9 @@
 # fantasy_app  
 
+GIT COMMANDS:  
 
-
-
-open terminal  
-
-enter: git clone https://github.com/garythegrouch/fantasy_app.git  
+git clone https://github.com/garythegrouch/fantasysoccer.git  
+-copies the whole github project to your file
 
 git add <filename>  
 -adds filename to a virtual staging area. can do this many times and add many files that you work on to staging area  
@@ -16,7 +14,6 @@ git status
 
 git commit -m 'message'
 -sends all files in staging area to the main repository with a message on what you did  
-
 
 
 git push  
@@ -35,5 +32,5 @@ git pull
 
 layout of project:  
 
-  user --> browser (html, css, js) --> front end (react.js, vue, angular) --> backend (django, flask, fastapi) --> database (SQL)
+  user --> browser (html, css, js) --> front end (react.js) --> backend (django) --> database (SQL)
 
